@@ -1,2 +1,2 @@
 disp("hello")
-disp(1+1)
+disp(TestFunc(1,1))
