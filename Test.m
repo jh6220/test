@@ -1,2 +1,6 @@
 disp("hello")
-disp(TestFunc(1,1))
+S = 0;
+for i = 1:10
+    S = TestFunc(S,i);
+end
+disp(S)
